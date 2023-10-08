@@ -268,14 +268,10 @@ button{
     .container{
         gap: 30px;
     }
-   
-    
     .text{
-        width: 70%;        
-    
+        width: 70%; 
     }
     .left-part{
-      
        height: 100vh; 
         width:  50vw;
     }
@@ -484,7 +480,6 @@ button{
        padding-top: 18px;
        padding-bottom: 18px;
     }
-    
     .error-message-email , .error-message-password {
         font-size: 15px;
     }
