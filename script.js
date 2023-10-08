@@ -1,4 +1,4 @@
-const btn = document.querySelector(".submit")
+const form = document.querySelector("form")
 const inputEmail = document.querySelector(".Email")
 const inputpassword = document.querySelector(".Password")
 const errorMessageEmail = document.querySelector(".error-message-email")
@@ -19,13 +19,13 @@ inputpassword.addEventListener("keyup" , function(){
     }
     else errorMessagePassword.textContent = ""
 })
-btn.addEventListener("click" , () => {
+form.addEventListener("submit" , () => {
     if( inputEmail.value.match(/^\w{3,}@\w{2,}\.\w{2,}$/) && inputpassword.value.match(/^\S{6,}$/) ){
         message.innerHTML = "All fields are valid"
     }
     else if(!inputEmail.value.match(/^\w{3,}@\w{2,}\.\w{2,}$/) && !inputpassword.value.match(/^\S{6,}$/) ){
         message.innerHTML = ""
-
+        
     } 
 })
 
