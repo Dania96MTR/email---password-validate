@@ -16,7 +16,6 @@
 .left-img{
     width: 100%;
     height: 100%;
-    
 }
 h1{
     font-size: 40px;
@@ -25,9 +24,6 @@ h1{
     position: absolute;
     top: 100px;
     left: 40px;
-
-    
-    
 }
 .text{
     position: absolute;
@@ -38,14 +34,10 @@ h1{
     color: #FFFFFF;
     width: 40%;
     line-height: 1.4;
-    
-
 }
 .right-part{
     height: 100vh; 
     width:  50vw;
-   
-    
 }
 .left-part{
    height: 100vh; 
@@ -118,7 +110,6 @@ button{
     top: 10px;
     font-size: 18px;
     width: 10%;
-    
 }
 .form{
     width: 100%;
@@ -176,7 +167,6 @@ button{
     color: #FFFFFF;
     font-size: 16px;
     margin-bottom: 5px;
-
 }
 .alert-bottom{
     font-size: 16px;
@@ -197,11 +187,9 @@ button{
     }
     .text{
         width: 70%; 
-        font-size: 13px;    
-    
+        font-size: 13px;
     }
     .left-part{
-      
        height: 100vh; 
         width:  50vw;
     }
@@ -214,7 +202,6 @@ button{
     .alert{
         margin-top: 10px;
         font-size: 10px;
-
     }
     .content{
         width: 95%;
@@ -223,13 +210,10 @@ button{
     .continue{
         margin-top: 10px;
         margin-bottom: 10px;
-        
     }
     button{
-        
         font-size: 10px;
         padding: 8px;
-        
     }
     .google , .twit{
         width: 15px;
@@ -244,8 +228,6 @@ button{
     
     .OR{
         font-size: 15px;
-        
-        
     }
     
     .Enter{
@@ -269,19 +251,16 @@ button{
     }
     .valid{
         font-size: 10px;
-        
     }
     .submit{
        width: 60px;
        height: 60px;
        font-size: 10px;
         margin-bottom: 3px;
-    
     }
     .alert-bottom{
         font-size: 10px;
     }
-    
 }
 
 @media screen and (min-width:700px) and (max-width:800px) {
@@ -338,13 +317,11 @@ button{
     .OR{
         font-size: 15px;
         top: 7px;
-        
     }
     
     .Enter{
         font-size: 16px;
     }
-    
     
     .valid-email{
         width: 100%;
@@ -375,22 +352,16 @@ button{
 @media screen and (min-width:800px) and (max-width:1024px) {
     .left-img{
         height: 100%;
-        
     }
     
     h1{
         font-size: 30px;
-               
         
     }
     .text{
         font-size: 16px;
-        
         width: 50%;
-    
     }
-   
-    
     h2{
         font-size: 20px;
     }
@@ -440,44 +411,30 @@ button{
     .error-message-email , .error-message-password {
         font-size: 13px;
     }
-
-    
     .sign-in{
         margin-top: 20px;
     }
     
     .submit{
-       /* padding: 23px 120px;*/
        width: 180px;
        height: 54px;
-        
     }
     .alert-bottom{
         font-size: 14px;
-        
     }
-    
-    
 }
 @media screen and  (min-width:1440px) {
-    
-
     .left-img{
         height: 100%;
-        
     }
     
     h1{
-        font-size: 30px;      
-        
+        font-size: 30px; 
     }
     .text{
         font-size: 25px;
         width: 60%;
-    
     }
-   
-    
     h2{
         font-size: 30px;
     }
@@ -497,7 +454,6 @@ button{
     button{
         padding: 8px ;
         font-size: 18px;
-        
     }
     .google , .twit{
         width: 20px;
@@ -520,7 +476,6 @@ button{
         font-size: 18px;
     }
     #email , #password{
-       /*padding: 18px 188px;*/
        padding-top: 18px;
        padding-bottom: 18px;
     }
@@ -528,22 +483,14 @@ button{
     .error-message-email , .error-message-password {
         font-size: 15px;
     }
-
-    
     .sign-in{
         margin-top: 20px;
     }
-    
     .submit{
        width: 250px;
        height: 64px;
-        
     }
     .alert-bottom{
         font-size: 18px;
-        
     }
-    
-    
-
 }
